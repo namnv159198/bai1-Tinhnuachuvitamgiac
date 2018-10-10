@@ -1,0 +1,3 @@
+C:/Users/namku/CLionProjects/Ontap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/namku/CLionProjects/Ontap/cmake-build-debug/CMakeFiles/Ontap.dir
+C:/Users/namku/CLionProjects/Ontap/cmake-build-debug/CMakeFiles/edit_cache.dir
