@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-float Tinhnuachuvitamgiac(int a,int b,int c){
+float Tinhnuachuvitamgiac(int *a,int *b,int *c){
 
-    return  (float) (a+b+c)/2;
+    return  (float) (*a+*b+*c)/2;
 }
 int main(){
     int a,b,c;
@@ -21,7 +21,7 @@ int main(){
         printf("Tong hai canh tam giac luon lon hon canh con lai.\n");
     }
     else{
-       float  nuachuvi = Tinhnuachuvitamgiac(a,b,c);
+       float  nuachuvi = Tinhnuachuvitamgiac(&a,&b,&c);
         printf("Nua chu vi cua tam giac abc la: \n");
         printf("%.2f",nuachuvi);
     }
